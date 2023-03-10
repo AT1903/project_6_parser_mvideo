@@ -1,0 +1,4758 @@
+{
+    "success": true,
+    "messages": [],
+    "body": {
+        "type": "plain",
+        "total": 597,
+        "products": [
+            "10031217",
+            "10031522",
+            "10031360",
+            "10024682",
+            "10031230",
+            "10031215",
+            "10028419",
+            "10030235",
+            "10030695",
+            "10030417",
+            "10030424",
+            "10031656",
+            "10031851",
+            "10031852",
+            "10028426",
+            "10030423",
+            "10030407",
+            "10031853",
+            "10031388",
+            "10028913",
+            "10030411",
+            "10030428",
+            "10030670",
+            "10030412"
+        ],
+        "filters": [
+            {
+                "name": "Категория",
+                "selected": false,
+                "translitName": "category",
+                "type": "category",
+                "codes": [
+                    -14
+                ],
+                "criterias": [
+                    {
+                        "name": "4K (UHD) телевизоры",
+                        "value": "1682",
+                        "count": 333,
+                        "translitName": "4k-uhd-televizory",
+                        "translitValue": "1682",
+                        "selected": false
+                    },
+                    {
+                        "name": "ЖК LED-телевизоры",
+                        "value": "990",
+                        "count": 224,
+                        "translitName": "zhk-led-televizory",
+                        "translitValue": "990",
+                        "selected": false
+                    },
+                    {
+                        "name": "OLED-телевизоры",
+                        "value": "1987",
+                        "count": 35,
+                        "translitName": "oled-televizory",
+                        "translitValue": "1987",
+                        "selected": false
+                    },
+                    {
+                        "name": "LED 8K телевизоры",
+                        "value": "6947",
+                        "count": 5,
+                        "translitName": "led-8k-televizory",
+                        "translitValue": "6947",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Бренд",
+                "selected": false,
+                "translitName": "brand",
+                "type": "vendor",
+                "codes": [
+                    -2
+                ],
+                "criterias": [
+                    {
+                        "name": "LG",
+                        "value": "LG",
+                        "count": 158,
+                        "translitName": null,
+                        "translitValue": "lg",
+                        "selected": false
+                    },
+                    {
+                        "name": "Samsung",
+                        "value": "Samsung",
+                        "count": 79,
+                        "translitName": null,
+                        "translitValue": "samsung",
+                        "selected": false
+                    },
+                    {
+                        "name": "Philips",
+                        "value": "Philips",
+                        "count": 32,
+                        "translitName": null,
+                        "translitValue": "philips",
+                        "selected": false
+                    },
+                    {
+                        "name": "Haier",
+                        "value": "Haier",
+                        "count": 25,
+                        "translitName": null,
+                        "translitValue": "haier",
+                        "selected": false
+                    },
+                    {
+                        "name": "Hisense",
+                        "value": "Hisense",
+                        "count": 23,
+                        "translitName": null,
+                        "translitValue": "hisense",
+                        "selected": false
+                    },
+                    {
+                        "name": "Grundig",
+                        "value": "Grundig",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "grundig",
+                        "selected": false
+                    },
+                    {
+                        "name": "Toshiba",
+                        "value": "Toshiba",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "toshiba",
+                        "selected": false
+                    },
+                    {
+                        "name": "Harper",
+                        "value": "Harper",
+                        "count": 21,
+                        "translitName": null,
+                        "translitValue": "harper",
+                        "selected": false
+                    },
+                    {
+                        "name": "Hi",
+                        "value": "Hi",
+                        "count": 18,
+                        "translitName": null,
+                        "translitValue": "hi",
+                        "selected": false
+                    },
+                    {
+                        "name": "Telefunken",
+                        "value": "Telefunken",
+                        "count": 18,
+                        "translitName": null,
+                        "translitValue": "telefunken",
+                        "selected": false
+                    },
+                    {
+                        "name": "Novex",
+                        "value": "Novex",
+                        "count": 17,
+                        "translitName": null,
+                        "translitValue": "novex",
+                        "selected": false
+                    },
+                    {
+                        "name": "TCL",
+                        "value": "TCL",
+                        "count": 11,
+                        "translitName": null,
+                        "translitValue": "tcl",
+                        "selected": false
+                    },
+                    {
+                        "name": "V-HOME",
+                        "value": "V-HOME",
+                        "count": 11,
+                        "translitName": null,
+                        "translitValue": "v-home",
+                        "selected": false
+                    },
+                    {
+                        "name": "Artel",
+                        "value": "Artel",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "artel",
+                        "selected": false
+                    },
+                    {
+                        "name": "Kivi",
+                        "value": "Kivi",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "kivi",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony",
+                        "value": "Sony",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "sony",
+                        "selected": false
+                    },
+                    {
+                        "name": "Supra",
+                        "value": "Supra",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "supra",
+                        "selected": false
+                    },
+                    {
+                        "name": "Витязь",
+                        "value": "Витязь",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "vityaz",
+                        "selected": false
+                    },
+                    {
+                        "name": "HEC",
+                        "value": "HEC",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "hec",
+                        "selected": false
+                    },
+                    {
+                        "name": "Olto",
+                        "value": "Olto",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "olto",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sharp",
+                        "value": "Sharp",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "sharp",
+                        "selected": false
+                    },
+                    {
+                        "name": "Thomson",
+                        "value": "Thomson",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "thomson",
+                        "selected": false
+                    },
+                    {
+                        "name": "topdevice",
+                        "value": "topdevice",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "topdevice",
+                        "selected": false
+                    },
+                    {
+                        "name": "ASANO",
+                        "value": "ASANO",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "asano",
+                        "selected": false
+                    },
+                    {
+                        "name": "Maunfeld",
+                        "value": "Maunfeld",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "maunfeld",
+                        "selected": false
+                    },
+                    {
+                        "name": "Starwind",
+                        "value": "Starwind",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "starwind",
+                        "selected": false
+                    },
+                    {
+                        "name": "BQ",
+                        "value": "BQ",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "bq",
+                        "selected": false
+                    },
+                    {
+                        "name": "Blackton",
+                        "value": "Blackton",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "blackton",
+                        "selected": false
+                    },
+                    {
+                        "name": "Skyline",
+                        "value": "Skyline",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "skyline",
+                        "selected": false
+                    },
+                    {
+                        "name": "Yuno",
+                        "value": "Yuno",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "yuno",
+                        "selected": false
+                    },
+                    {
+                        "name": "realme",
+                        "value": "realme",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "realme",
+                        "selected": false
+                    },
+                    {
+                        "name": "Econ",
+                        "value": "Econ",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "econ",
+                        "selected": false
+                    },
+                    {
+                        "name": "GoldStar",
+                        "value": "GoldStar",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "goldstar",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sber",
+                        "value": "Sber",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "sber",
+                        "selected": false
+                    },
+                    {
+                        "name": "Xiaomi",
+                        "value": "Xiaomi",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "xiaomi",
+                        "selected": false
+                    },
+                    {
+                        "name": "Erisson",
+                        "value": "Erisson",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "erisson",
+                        "selected": false
+                    },
+                    {
+                        "name": "HUAWEI",
+                        "value": "HUAWEI",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "huawei",
+                        "selected": false
+                    },
+                    {
+                        "name": "National",
+                        "value": "National",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "national",
+                        "selected": false
+                    },
+                    {
+                        "name": "Yandex",
+                        "value": "Yandex",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "yandex",
+                        "selected": false
+                    },
+                    {
+                        "name": "AVEL",
+                        "value": "AVEL",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "avel",
+                        "selected": false
+                    },
+                    {
+                        "name": "Centek",
+                        "value": "Centek",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "centek",
+                        "selected": false
+                    },
+                    {
+                        "name": "Coocaa",
+                        "value": "Coocaa",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "coocaa",
+                        "selected": false
+                    },
+                    {
+                        "name": "Digma",
+                        "value": "Digma",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "digma",
+                        "selected": false
+                    },
+                    {
+                        "name": "Fusion",
+                        "value": "Fusion",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "fusion",
+                        "selected": false
+                    },
+                    {
+                        "name": "Hyundai",
+                        "value": "Hyundai",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "hyundai",
+                        "selected": false
+                    },
+                    {
+                        "name": "Loewe",
+                        "value": "Loewe",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "loewe",
+                        "selected": false
+                    },
+                    {
+                        "name": "POLARLINE",
+                        "value": "POLARLINE",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "polarline",
+                        "selected": false
+                    },
+                    {
+                        "name": "Prestigio",
+                        "value": "Prestigio",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "prestigio",
+                        "selected": false
+                    },
+                    {
+                        "name": "Vekta",
+                        "value": "Vekta",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "vekta",
+                        "selected": false
+                    },
+                    {
+                        "name": "Panasonic",
+                        "value": "Panasonic",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "panasonic",
+                        "selected": false
+                    },
+                    {
+                        "name": "Daewoo",
+                        "value": "Daewoo",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "daewoo",
+                        "selected": false
+                    },
+                    {
+                        "name": "Horizont",
+                        "value": "Horizont",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "horizont",
+                        "selected": false
+                    },
+                    {
+                        "name": "Denn",
+                        "value": "Denn",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "denn",
+                        "selected": false
+                    },
+                    {
+                        "name": "Gazer",
+                        "value": "Gazer",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "gazer",
+                        "selected": false
+                    },
+                    {
+                        "name": "BBK",
+                        "value": "BBK",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "bbk",
+                        "selected": false
+                    },
+                    {
+                        "name": "SKYWORTH",
+                        "value": "SKYWORTH",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "skyworth",
+                        "selected": false
+                    },
+                    {
+                        "name": "Accesstyle",
+                        "value": "Accesstyle",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "accesstyle",
+                        "selected": false
+                    },
+                    {
+                        "name": "Aiwa",
+                        "value": "Aiwa",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "aiwa",
+                        "selected": false
+                    },
+                    {
+                        "name": "Kraft",
+                        "value": "Kraft",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "kraft",
+                        "selected": false
+                    },
+                    {
+                        "name": "LEFF",
+                        "value": "LEFF",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "leff",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Цена",
+                "selected": false,
+                "translitName": "price",
+                "type": "price",
+                "codes": [
+                    -3
+                ],
+                "criterias": [
+                    {
+                        "name": "6699",
+                        "value": "6699",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "6699",
+                        "selected": false
+                    },
+                    {
+                        "name": "6799",
+                        "value": "6799",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "6799",
+                        "selected": false
+                    },
+                    {
+                        "name": "6890",
+                        "value": "6890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "6890",
+                        "selected": false
+                    },
+                    {
+                        "name": "6999",
+                        "value": "6999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "6999",
+                        "selected": false
+                    },
+                    {
+                        "name": "7499",
+                        "value": "7499",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "7499",
+                        "selected": false
+                    },
+                    {
+                        "name": "7690",
+                        "value": "7690",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "7690",
+                        "selected": false
+                    },
+                    {
+                        "name": "7700",
+                        "value": "7700",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "7700",
+                        "selected": false
+                    },
+                    {
+                        "name": "7890",
+                        "value": "7890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "7890",
+                        "selected": false
+                    },
+                    {
+                        "name": "7999",
+                        "value": "7999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "7999",
+                        "selected": false
+                    },
+                    {
+                        "name": "8000",
+                        "value": "8000",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8000",
+                        "selected": false
+                    },
+                    {
+                        "name": "8090",
+                        "value": "8090",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8090",
+                        "selected": false
+                    },
+                    {
+                        "name": "8100",
+                        "value": "8100",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8100",
+                        "selected": false
+                    },
+                    {
+                        "name": "8199",
+                        "value": "8199",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8199",
+                        "selected": false
+                    },
+                    {
+                        "name": "8290",
+                        "value": "8290",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "8290",
+                        "selected": false
+                    },
+                    {
+                        "name": "8300",
+                        "value": "8300",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "8300",
+                        "selected": false
+                    },
+                    {
+                        "name": "8400",
+                        "value": "8400",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8400",
+                        "selected": false
+                    },
+                    {
+                        "name": "8480",
+                        "value": "8480",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8480",
+                        "selected": false
+                    },
+                    {
+                        "name": "8499",
+                        "value": "8499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8499",
+                        "selected": false
+                    },
+                    {
+                        "name": "8500",
+                        "value": "8500",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "8500",
+                        "selected": false
+                    },
+                    {
+                        "name": "8590",
+                        "value": "8590",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "8590",
+                        "selected": false
+                    },
+                    {
+                        "name": "8690",
+                        "value": "8690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8690",
+                        "selected": false
+                    },
+                    {
+                        "name": "8790",
+                        "value": "8790",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8790",
+                        "selected": false
+                    },
+                    {
+                        "name": "8890",
+                        "value": "8890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8890",
+                        "selected": false
+                    },
+                    {
+                        "name": "8899",
+                        "value": "8899",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "8899",
+                        "selected": false
+                    },
+                    {
+                        "name": "8990",
+                        "value": "8990",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "8990",
+                        "selected": false
+                    },
+                    {
+                        "name": "8999",
+                        "value": "8999",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "8999",
+                        "selected": false
+                    },
+                    {
+                        "name": "9090",
+                        "value": "9090",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "9090",
+                        "selected": false
+                    },
+                    {
+                        "name": "9170",
+                        "value": "9170",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "9170",
+                        "selected": false
+                    },
+                    {
+                        "name": "9490",
+                        "value": "9490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "9490",
+                        "selected": false
+                    },
+                    {
+                        "name": "9499",
+                        "value": "9499",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "9499",
+                        "selected": false
+                    },
+                    {
+                        "name": "9890",
+                        "value": "9890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "9890",
+                        "selected": false
+                    },
+                    {
+                        "name": "9990",
+                        "value": "9990",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "9990",
+                        "selected": false
+                    },
+                    {
+                        "name": "9999",
+                        "value": "9999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "9999",
+                        "selected": false
+                    },
+                    {
+                        "name": "10190",
+                        "value": "10190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "10190",
+                        "selected": false
+                    },
+                    {
+                        "name": "10390",
+                        "value": "10390",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "10390",
+                        "selected": false
+                    },
+                    {
+                        "name": "10499",
+                        "value": "10499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "10499",
+                        "selected": false
+                    },
+                    {
+                        "name": "10590",
+                        "value": "10590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "10590",
+                        "selected": false
+                    },
+                    {
+                        "name": "10690",
+                        "value": "10690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "10690",
+                        "selected": false
+                    },
+                    {
+                        "name": "10799",
+                        "value": "10799",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "10799",
+                        "selected": false
+                    },
+                    {
+                        "name": "10999",
+                        "value": "10999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "10999",
+                        "selected": false
+                    },
+                    {
+                        "name": "11190",
+                        "value": "11190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "11190",
+                        "selected": false
+                    },
+                    {
+                        "name": "11490",
+                        "value": "11490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "11490",
+                        "selected": false
+                    },
+                    {
+                        "name": "11990",
+                        "value": "11990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "11990",
+                        "selected": false
+                    },
+                    {
+                        "name": "12490",
+                        "value": "12490",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "12490",
+                        "selected": false
+                    },
+                    {
+                        "name": "12590",
+                        "value": "12590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "12590",
+                        "selected": false
+                    },
+                    {
+                        "name": "12990",
+                        "value": "12990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "12990",
+                        "selected": false
+                    },
+                    {
+                        "name": "12999",
+                        "value": "12999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "12999",
+                        "selected": false
+                    },
+                    {
+                        "name": "13190",
+                        "value": "13190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "13190",
+                        "selected": false
+                    },
+                    {
+                        "name": "13290",
+                        "value": "13290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "13290",
+                        "selected": false
+                    },
+                    {
+                        "name": "13390",
+                        "value": "13390",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "13390",
+                        "selected": false
+                    },
+                    {
+                        "name": "13990",
+                        "value": "13990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "13990",
+                        "selected": false
+                    },
+                    {
+                        "name": "13999",
+                        "value": "13999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "13999",
+                        "selected": false
+                    },
+                    {
+                        "name": "14290",
+                        "value": "14290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "14290",
+                        "selected": false
+                    },
+                    {
+                        "name": "14390",
+                        "value": "14390",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "14390",
+                        "selected": false
+                    },
+                    {
+                        "name": "14499",
+                        "value": "14499",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "14499",
+                        "selected": false
+                    },
+                    {
+                        "name": "14590",
+                        "value": "14590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "14590",
+                        "selected": false
+                    },
+                    {
+                        "name": "14890",
+                        "value": "14890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "14890",
+                        "selected": false
+                    },
+                    {
+                        "name": "14990",
+                        "value": "14990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "14990",
+                        "selected": false
+                    },
+                    {
+                        "name": "14999",
+                        "value": "14999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "14999",
+                        "selected": false
+                    },
+                    {
+                        "name": "15190",
+                        "value": "15190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "15190",
+                        "selected": false
+                    },
+                    {
+                        "name": "15490",
+                        "value": "15490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "15490",
+                        "selected": false
+                    },
+                    {
+                        "name": "15590",
+                        "value": "15590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "15590",
+                        "selected": false
+                    },
+                    {
+                        "name": "15990",
+                        "value": "15990",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "15990",
+                        "selected": false
+                    },
+                    {
+                        "name": "15999",
+                        "value": "15999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "15999",
+                        "selected": false
+                    },
+                    {
+                        "name": "16190",
+                        "value": "16190",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "16190",
+                        "selected": false
+                    },
+                    {
+                        "name": "16499",
+                        "value": "16499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "16499",
+                        "selected": false
+                    },
+                    {
+                        "name": "16599",
+                        "value": "16599",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "16599",
+                        "selected": false
+                    },
+                    {
+                        "name": "16990",
+                        "value": "16990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "16990",
+                        "selected": false
+                    },
+                    {
+                        "name": "16999",
+                        "value": "16999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "16999",
+                        "selected": false
+                    },
+                    {
+                        "name": "17190",
+                        "value": "17190",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "17190",
+                        "selected": false
+                    },
+                    {
+                        "name": "17290",
+                        "value": "17290",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "17290",
+                        "selected": false
+                    },
+                    {
+                        "name": "17999",
+                        "value": "17999",
+                        "count": 11,
+                        "translitName": null,
+                        "translitValue": "17999",
+                        "selected": false
+                    },
+                    {
+                        "name": "18290",
+                        "value": "18290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "18290",
+                        "selected": false
+                    },
+                    {
+                        "name": "18399",
+                        "value": "18399",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "18399",
+                        "selected": false
+                    },
+                    {
+                        "name": "18999",
+                        "value": "18999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "18999",
+                        "selected": false
+                    },
+                    {
+                        "name": "19499",
+                        "value": "19499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "19499",
+                        "selected": false
+                    },
+                    {
+                        "name": "19690",
+                        "value": "19690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "19690",
+                        "selected": false
+                    },
+                    {
+                        "name": "19790",
+                        "value": "19790",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "19790",
+                        "selected": false
+                    },
+                    {
+                        "name": "19990",
+                        "value": "19990",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "19990",
+                        "selected": false
+                    },
+                    {
+                        "name": "19999",
+                        "value": "19999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "19999",
+                        "selected": false
+                    },
+                    {
+                        "name": "20190",
+                        "value": "20190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "20190",
+                        "selected": false
+                    },
+                    {
+                        "name": "20199",
+                        "value": "20199",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "20199",
+                        "selected": false
+                    },
+                    {
+                        "name": "20590",
+                        "value": "20590",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "20590",
+                        "selected": false
+                    },
+                    {
+                        "name": "20999",
+                        "value": "20999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "20999",
+                        "selected": false
+                    },
+                    {
+                        "name": "21199",
+                        "value": "21199",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "21199",
+                        "selected": false
+                    },
+                    {
+                        "name": "21490",
+                        "value": "21490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "21490",
+                        "selected": false
+                    },
+                    {
+                        "name": "21990",
+                        "value": "21990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "21990",
+                        "selected": false
+                    },
+                    {
+                        "name": "21999",
+                        "value": "21999",
+                        "count": 11,
+                        "translitName": null,
+                        "translitValue": "21999",
+                        "selected": false
+                    },
+                    {
+                        "name": "22690",
+                        "value": "22690",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "22690",
+                        "selected": false
+                    },
+                    {
+                        "name": "22699",
+                        "value": "22699",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "22699",
+                        "selected": false
+                    },
+                    {
+                        "name": "22990",
+                        "value": "22990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "22990",
+                        "selected": false
+                    },
+                    {
+                        "name": "22999",
+                        "value": "22999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "22999",
+                        "selected": false
+                    },
+                    {
+                        "name": "23690",
+                        "value": "23690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "23690",
+                        "selected": false
+                    },
+                    {
+                        "name": "23790",
+                        "value": "23790",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "23790",
+                        "selected": false
+                    },
+                    {
+                        "name": "23999",
+                        "value": "23999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "23999",
+                        "selected": false
+                    },
+                    {
+                        "name": "24490",
+                        "value": "24490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "24490",
+                        "selected": false
+                    },
+                    {
+                        "name": "24790",
+                        "value": "24790",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "24790",
+                        "selected": false
+                    },
+                    {
+                        "name": "24990",
+                        "value": "24990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "24990",
+                        "selected": false
+                    },
+                    {
+                        "name": "24999",
+                        "value": "24999",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "24999",
+                        "selected": false
+                    },
+                    {
+                        "name": "25190",
+                        "value": "25190",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "25190",
+                        "selected": false
+                    },
+                    {
+                        "name": "25599",
+                        "value": "25599",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "25599",
+                        "selected": false
+                    },
+                    {
+                        "name": "25690",
+                        "value": "25690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "25690",
+                        "selected": false
+                    },
+                    {
+                        "name": "25999",
+                        "value": "25999",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "25999",
+                        "selected": false
+                    },
+                    {
+                        "name": "26595",
+                        "value": "26595",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "26595",
+                        "selected": false
+                    },
+                    {
+                        "name": "26999",
+                        "value": "26999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "26999",
+                        "selected": false
+                    },
+                    {
+                        "name": "27999",
+                        "value": "27999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "27999",
+                        "selected": false
+                    },
+                    {
+                        "name": "28190",
+                        "value": "28190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "28190",
+                        "selected": false
+                    },
+                    {
+                        "name": "29190",
+                        "value": "29190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "29190",
+                        "selected": false
+                    },
+                    {
+                        "name": "29999",
+                        "value": "29999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "29999",
+                        "selected": false
+                    },
+                    {
+                        "name": "30999",
+                        "value": "30999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "30999",
+                        "selected": false
+                    },
+                    {
+                        "name": "31990",
+                        "value": "31990",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "31990",
+                        "selected": false
+                    },
+                    {
+                        "name": "31999",
+                        "value": "31999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "31999",
+                        "selected": false
+                    },
+                    {
+                        "name": "32390",
+                        "value": "32390",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "32390",
+                        "selected": false
+                    },
+                    {
+                        "name": "32999",
+                        "value": "32999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "32999",
+                        "selected": false
+                    },
+                    {
+                        "name": "33499",
+                        "value": "33499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "33499",
+                        "selected": false
+                    },
+                    {
+                        "name": "33790",
+                        "value": "33790",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "33790",
+                        "selected": false
+                    },
+                    {
+                        "name": "33999",
+                        "value": "33999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "33999",
+                        "selected": false
+                    },
+                    {
+                        "name": "34990",
+                        "value": "34990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "34990",
+                        "selected": false
+                    },
+                    {
+                        "name": "34999",
+                        "value": "34999",
+                        "count": 11,
+                        "translitName": null,
+                        "translitValue": "34999",
+                        "selected": false
+                    },
+                    {
+                        "name": "35190",
+                        "value": "35190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "35190",
+                        "selected": false
+                    },
+                    {
+                        "name": "36799",
+                        "value": "36799",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "36799",
+                        "selected": false
+                    },
+                    {
+                        "name": "36999",
+                        "value": "36999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "36999",
+                        "selected": false
+                    },
+                    {
+                        "name": "37190",
+                        "value": "37190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "37190",
+                        "selected": false
+                    },
+                    {
+                        "name": "37999",
+                        "value": "37999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "37999",
+                        "selected": false
+                    },
+                    {
+                        "name": "38190",
+                        "value": "38190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "38190",
+                        "selected": false
+                    },
+                    {
+                        "name": "38999",
+                        "value": "38999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "38999",
+                        "selected": false
+                    },
+                    {
+                        "name": "39990",
+                        "value": "39990",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "39990",
+                        "selected": false
+                    },
+                    {
+                        "name": "39999",
+                        "value": "39999",
+                        "count": 10,
+                        "translitName": null,
+                        "translitValue": "39999",
+                        "selected": false
+                    },
+                    {
+                        "name": "40190",
+                        "value": "40190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "40190",
+                        "selected": false
+                    },
+                    {
+                        "name": "41499",
+                        "value": "41499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "41499",
+                        "selected": false
+                    },
+                    {
+                        "name": "42499",
+                        "value": "42499",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "42499",
+                        "selected": false
+                    },
+                    {
+                        "name": "42999",
+                        "value": "42999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "42999",
+                        "selected": false
+                    },
+                    {
+                        "name": "43990",
+                        "value": "43990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "43990",
+                        "selected": false
+                    },
+                    {
+                        "name": "43999",
+                        "value": "43999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "43999",
+                        "selected": false
+                    },
+                    {
+                        "name": "44499",
+                        "value": "44499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "44499",
+                        "selected": false
+                    },
+                    {
+                        "name": "44590",
+                        "value": "44590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "44590",
+                        "selected": false
+                    },
+                    {
+                        "name": "44990",
+                        "value": "44990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "44990",
+                        "selected": false
+                    },
+                    {
+                        "name": "44999",
+                        "value": "44999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "44999",
+                        "selected": false
+                    },
+                    {
+                        "name": "45290",
+                        "value": "45290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "45290",
+                        "selected": false
+                    },
+                    {
+                        "name": "45499",
+                        "value": "45499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "45499",
+                        "selected": false
+                    },
+                    {
+                        "name": "45590",
+                        "value": "45590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "45590",
+                        "selected": false
+                    },
+                    {
+                        "name": "45990",
+                        "value": "45990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "45990",
+                        "selected": false
+                    },
+                    {
+                        "name": "45999",
+                        "value": "45999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "45999",
+                        "selected": false
+                    },
+                    {
+                        "name": "46990",
+                        "value": "46990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "46990",
+                        "selected": false
+                    },
+                    {
+                        "name": "46999",
+                        "value": "46999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "46999",
+                        "selected": false
+                    },
+                    {
+                        "name": "47499",
+                        "value": "47499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "47499",
+                        "selected": false
+                    },
+                    {
+                        "name": "47999",
+                        "value": "47999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "47999",
+                        "selected": false
+                    },
+                    {
+                        "name": "48690",
+                        "value": "48690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "48690",
+                        "selected": false
+                    },
+                    {
+                        "name": "48999",
+                        "value": "48999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "48999",
+                        "selected": false
+                    },
+                    {
+                        "name": "49590",
+                        "value": "49590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "49590",
+                        "selected": false
+                    },
+                    {
+                        "name": "49890",
+                        "value": "49890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "49890",
+                        "selected": false
+                    },
+                    {
+                        "name": "49990",
+                        "value": "49990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "49990",
+                        "selected": false
+                    },
+                    {
+                        "name": "49999",
+                        "value": "49999",
+                        "count": 15,
+                        "translitName": null,
+                        "translitValue": "49999",
+                        "selected": false
+                    },
+                    {
+                        "name": "50190",
+                        "value": "50190",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "50190",
+                        "selected": false
+                    },
+                    {
+                        "name": "50999",
+                        "value": "50999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "50999",
+                        "selected": false
+                    },
+                    {
+                        "name": "51990",
+                        "value": "51990",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "51990",
+                        "selected": false
+                    },
+                    {
+                        "name": "51999",
+                        "value": "51999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "51999",
+                        "selected": false
+                    },
+                    {
+                        "name": "52190",
+                        "value": "52190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "52190",
+                        "selected": false
+                    },
+                    {
+                        "name": "52799",
+                        "value": "52799",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "52799",
+                        "selected": false
+                    },
+                    {
+                        "name": "52999",
+                        "value": "52999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "52999",
+                        "selected": false
+                    },
+                    {
+                        "name": "53190",
+                        "value": "53190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "53190",
+                        "selected": false
+                    },
+                    {
+                        "name": "53290",
+                        "value": "53290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "53290",
+                        "selected": false
+                    },
+                    {
+                        "name": "53590",
+                        "value": "53590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "53590",
+                        "selected": false
+                    },
+                    {
+                        "name": "53999",
+                        "value": "53999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "53999",
+                        "selected": false
+                    },
+                    {
+                        "name": "54490",
+                        "value": "54490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "54490",
+                        "selected": false
+                    },
+                    {
+                        "name": "54999",
+                        "value": "54999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "54999",
+                        "selected": false
+                    },
+                    {
+                        "name": "55190",
+                        "value": "55190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "55190",
+                        "selected": false
+                    },
+                    {
+                        "name": "55390",
+                        "value": "55390",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "55390",
+                        "selected": false
+                    },
+                    {
+                        "name": "55990",
+                        "value": "55990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "55990",
+                        "selected": false
+                    },
+                    {
+                        "name": "55999",
+                        "value": "55999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "55999",
+                        "selected": false
+                    },
+                    {
+                        "name": "56290",
+                        "value": "56290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "56290",
+                        "selected": false
+                    },
+                    {
+                        "name": "57999",
+                        "value": "57999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "57999",
+                        "selected": false
+                    },
+                    {
+                        "name": "58690",
+                        "value": "58690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "58690",
+                        "selected": false
+                    },
+                    {
+                        "name": "59890",
+                        "value": "59890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "59890",
+                        "selected": false
+                    },
+                    {
+                        "name": "59999",
+                        "value": "59999",
+                        "count": 15,
+                        "translitName": null,
+                        "translitValue": "59999",
+                        "selected": false
+                    },
+                    {
+                        "name": "61999",
+                        "value": "61999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "61999",
+                        "selected": false
+                    },
+                    {
+                        "name": "62999",
+                        "value": "62999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "62999",
+                        "selected": false
+                    },
+                    {
+                        "name": "63299",
+                        "value": "63299",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "63299",
+                        "selected": false
+                    },
+                    {
+                        "name": "63390",
+                        "value": "63390",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "63390",
+                        "selected": false
+                    },
+                    {
+                        "name": "64190",
+                        "value": "64190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "64190",
+                        "selected": false
+                    },
+                    {
+                        "name": "64399",
+                        "value": "64399",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "64399",
+                        "selected": false
+                    },
+                    {
+                        "name": "64999",
+                        "value": "64999",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "64999",
+                        "selected": false
+                    },
+                    {
+                        "name": "66999",
+                        "value": "66999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "66999",
+                        "selected": false
+                    },
+                    {
+                        "name": "67890",
+                        "value": "67890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "67890",
+                        "selected": false
+                    },
+                    {
+                        "name": "67999",
+                        "value": "67999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "67999",
+                        "selected": false
+                    },
+                    {
+                        "name": "68999",
+                        "value": "68999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "68999",
+                        "selected": false
+                    },
+                    {
+                        "name": "69999",
+                        "value": "69999",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "69999",
+                        "selected": false
+                    },
+                    {
+                        "name": "70190",
+                        "value": "70190",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "70190",
+                        "selected": false
+                    },
+                    {
+                        "name": "70999",
+                        "value": "70999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "70999",
+                        "selected": false
+                    },
+                    {
+                        "name": "71999",
+                        "value": "71999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "71999",
+                        "selected": false
+                    },
+                    {
+                        "name": "72590",
+                        "value": "72590",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "72590",
+                        "selected": false
+                    },
+                    {
+                        "name": "72699",
+                        "value": "72699",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "72699",
+                        "selected": false
+                    },
+                    {
+                        "name": "72999",
+                        "value": "72999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "72999",
+                        "selected": false
+                    },
+                    {
+                        "name": "73499",
+                        "value": "73499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "73499",
+                        "selected": false
+                    },
+                    {
+                        "name": "73999",
+                        "value": "73999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "73999",
+                        "selected": false
+                    },
+                    {
+                        "name": "74999",
+                        "value": "74999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "74999",
+                        "selected": false
+                    },
+                    {
+                        "name": "75999",
+                        "value": "75999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "75999",
+                        "selected": false
+                    },
+                    {
+                        "name": "76499",
+                        "value": "76499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "76499",
+                        "selected": false
+                    },
+                    {
+                        "name": "76999",
+                        "value": "76999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "76999",
+                        "selected": false
+                    },
+                    {
+                        "name": "77490",
+                        "value": "77490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "77490",
+                        "selected": false
+                    },
+                    {
+                        "name": "79690",
+                        "value": "79690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "79690",
+                        "selected": false
+                    },
+                    {
+                        "name": "79699",
+                        "value": "79699",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "79699",
+                        "selected": false
+                    },
+                    {
+                        "name": "79999",
+                        "value": "79999",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "79999",
+                        "selected": false
+                    },
+                    {
+                        "name": "80690",
+                        "value": "80690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "80690",
+                        "selected": false
+                    },
+                    {
+                        "name": "80999",
+                        "value": "80999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "80999",
+                        "selected": false
+                    },
+                    {
+                        "name": "81190",
+                        "value": "81190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "81190",
+                        "selected": false
+                    },
+                    {
+                        "name": "81999",
+                        "value": "81999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "81999",
+                        "selected": false
+                    },
+                    {
+                        "name": "82890",
+                        "value": "82890",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "82890",
+                        "selected": false
+                    },
+                    {
+                        "name": "84299",
+                        "value": "84299",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "84299",
+                        "selected": false
+                    },
+                    {
+                        "name": "85999",
+                        "value": "85999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "85999",
+                        "selected": false
+                    },
+                    {
+                        "name": "87290",
+                        "value": "87290",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "87290",
+                        "selected": false
+                    },
+                    {
+                        "name": "88990",
+                        "value": "88990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "88990",
+                        "selected": false
+                    },
+                    {
+                        "name": "89999",
+                        "value": "89999",
+                        "count": 13,
+                        "translitName": null,
+                        "translitValue": "89999",
+                        "selected": false
+                    },
+                    {
+                        "name": "91999",
+                        "value": "91999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "91999",
+                        "selected": false
+                    },
+                    {
+                        "name": "93490",
+                        "value": "93490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "93490",
+                        "selected": false
+                    },
+                    {
+                        "name": "93999",
+                        "value": "93999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "93999",
+                        "selected": false
+                    },
+                    {
+                        "name": "94999",
+                        "value": "94999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "94999",
+                        "selected": false
+                    },
+                    {
+                        "name": "97999",
+                        "value": "97999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "97999",
+                        "selected": false
+                    },
+                    {
+                        "name": "99999",
+                        "value": "99999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "99999",
+                        "selected": false
+                    },
+                    {
+                        "name": "101990",
+                        "value": "101990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "101990",
+                        "selected": false
+                    },
+                    {
+                        "name": "104999",
+                        "value": "104999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "104999",
+                        "selected": false
+                    },
+                    {
+                        "name": "109999",
+                        "value": "109999",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "109999",
+                        "selected": false
+                    },
+                    {
+                        "name": "110690",
+                        "value": "110690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "110690",
+                        "selected": false
+                    },
+                    {
+                        "name": "111499",
+                        "value": "111499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "111499",
+                        "selected": false
+                    },
+                    {
+                        "name": "111999",
+                        "value": "111999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "111999",
+                        "selected": false
+                    },
+                    {
+                        "name": "114990",
+                        "value": "114990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "114990",
+                        "selected": false
+                    },
+                    {
+                        "name": "114999",
+                        "value": "114999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "114999",
+                        "selected": false
+                    },
+                    {
+                        "name": "116999",
+                        "value": "116999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "116999",
+                        "selected": false
+                    },
+                    {
+                        "name": "119999",
+                        "value": "119999",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "119999",
+                        "selected": false
+                    },
+                    {
+                        "name": "120499",
+                        "value": "120499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "120499",
+                        "selected": false
+                    },
+                    {
+                        "name": "120990",
+                        "value": "120990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "120990",
+                        "selected": false
+                    },
+                    {
+                        "name": "125999",
+                        "value": "125999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "125999",
+                        "selected": false
+                    },
+                    {
+                        "name": "126490",
+                        "value": "126490",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "126490",
+                        "selected": false
+                    },
+                    {
+                        "name": "129990",
+                        "value": "129990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "129990",
+                        "selected": false
+                    },
+                    {
+                        "name": "129999",
+                        "value": "129999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "129999",
+                        "selected": false
+                    },
+                    {
+                        "name": "134999",
+                        "value": "134999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "134999",
+                        "selected": false
+                    },
+                    {
+                        "name": "136499",
+                        "value": "136499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "136499",
+                        "selected": false
+                    },
+                    {
+                        "name": "137990",
+                        "value": "137990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "137990",
+                        "selected": false
+                    },
+                    {
+                        "name": "139990",
+                        "value": "139990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "139990",
+                        "selected": false
+                    },
+                    {
+                        "name": "139999",
+                        "value": "139999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "139999",
+                        "selected": false
+                    },
+                    {
+                        "name": "140190",
+                        "value": "140190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "140190",
+                        "selected": false
+                    },
+                    {
+                        "name": "143999",
+                        "value": "143999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "143999",
+                        "selected": false
+                    },
+                    {
+                        "name": "144390",
+                        "value": "144390",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "144390",
+                        "selected": false
+                    },
+                    {
+                        "name": "147190",
+                        "value": "147190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "147190",
+                        "selected": false
+                    },
+                    {
+                        "name": "148690",
+                        "value": "148690",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "148690",
+                        "selected": false
+                    },
+                    {
+                        "name": "148990",
+                        "value": "148990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "148990",
+                        "selected": false
+                    },
+                    {
+                        "name": "149999",
+                        "value": "149999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "149999",
+                        "selected": false
+                    },
+                    {
+                        "name": "155999",
+                        "value": "155999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "155999",
+                        "selected": false
+                    },
+                    {
+                        "name": "159999",
+                        "value": "159999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "159999",
+                        "selected": false
+                    },
+                    {
+                        "name": "164990",
+                        "value": "164990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "164990",
+                        "selected": false
+                    },
+                    {
+                        "name": "164999",
+                        "value": "164999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "164999",
+                        "selected": false
+                    },
+                    {
+                        "name": "169499",
+                        "value": "169499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "169499",
+                        "selected": false
+                    },
+                    {
+                        "name": "169999",
+                        "value": "169999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "169999",
+                        "selected": false
+                    },
+                    {
+                        "name": "179999",
+                        "value": "179999",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "179999",
+                        "selected": false
+                    },
+                    {
+                        "name": "187999",
+                        "value": "187999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "187999",
+                        "selected": false
+                    },
+                    {
+                        "name": "188999",
+                        "value": "188999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "188999",
+                        "selected": false
+                    },
+                    {
+                        "name": "189999",
+                        "value": "189999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "189999",
+                        "selected": false
+                    },
+                    {
+                        "name": "199990",
+                        "value": "199990",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "199990",
+                        "selected": false
+                    },
+                    {
+                        "name": "199999",
+                        "value": "199999",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "199999",
+                        "selected": false
+                    },
+                    {
+                        "name": "204999",
+                        "value": "204999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "204999",
+                        "selected": false
+                    },
+                    {
+                        "name": "205999",
+                        "value": "205999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "205999",
+                        "selected": false
+                    },
+                    {
+                        "name": "216999",
+                        "value": "216999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "216999",
+                        "selected": false
+                    },
+                    {
+                        "name": "219999",
+                        "value": "219999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "219999",
+                        "selected": false
+                    },
+                    {
+                        "name": "224999",
+                        "value": "224999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "224999",
+                        "selected": false
+                    },
+                    {
+                        "name": "229999",
+                        "value": "229999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "229999",
+                        "selected": false
+                    },
+                    {
+                        "name": "234999",
+                        "value": "234999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "234999",
+                        "selected": false
+                    },
+                    {
+                        "name": "247999",
+                        "value": "247999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "247999",
+                        "selected": false
+                    },
+                    {
+                        "name": "249999",
+                        "value": "249999",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "249999",
+                        "selected": false
+                    },
+                    {
+                        "name": "259999",
+                        "value": "259999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "259999",
+                        "selected": false
+                    },
+                    {
+                        "name": "274999",
+                        "value": "274999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "274999",
+                        "selected": false
+                    },
+                    {
+                        "name": "299999",
+                        "value": "299999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "299999",
+                        "selected": false
+                    },
+                    {
+                        "name": "369999",
+                        "value": "369999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "369999",
+                        "selected": false
+                    },
+                    {
+                        "name": "395499",
+                        "value": "395499",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "395499",
+                        "selected": false
+                    },
+                    {
+                        "name": "399999",
+                        "value": "399999",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "399999",
+                        "selected": false
+                    },
+                    {
+                        "name": "419999",
+                        "value": "419999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "419999",
+                        "selected": false
+                    },
+                    {
+                        "name": "424999",
+                        "value": "424999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "424999",
+                        "selected": false
+                    },
+                    {
+                        "name": "539999",
+                        "value": "539999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "539999",
+                        "selected": false
+                    },
+                    {
+                        "name": "1549190",
+                        "value": "1549190",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "1549190",
+                        "selected": false
+                    },
+                    {
+                        "name": "6999999",
+                        "value": "6999999",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "6999999",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Товары со скидкой",
+                "selected": false,
+                "translitName": "skidka",
+                "type": "Размер скидки",
+                "codes": [
+                    -8
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Более 5%",
+                        "count": 174,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Акции",
+                "selected": false,
+                "translitName": "akcii",
+                "type": "Акции",
+                "codes": [
+                    -1
+                ],
+                "criterias": [
+                    {
+                        "name": "Весна SALE до 50%",
+                        "value": "Весна SALE до 50%",
+                        "count": 41,
+                        "translitName": null,
+                        "translitValue": "vesna-sale-do-50",
+                        "selected": false
+                    },
+                    {
+                        "name": "Рассрочка",
+                        "value": "Рассрочка",
+                        "count": 313,
+                        "translitName": null,
+                        "translitValue": "rassrochka",
+                        "selected": false
+                    },
+                    {
+                        "name": "Повышенный кэшбек",
+                        "value": "Повышенный кэшбек",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "povyshennyi-keshbek",
+                        "selected": false
+                    },
+                    {
+                        "name": "Скидка 10% на комплект из трёх и более товаров",
+                        "value": "Скидка 10% на комплект из трёх и более товаров",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "skidka-10-na-komplekt-iz-treh-i-bolee-tovarov",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Только в наличии",
+                "selected": true,
+                "translitName": "tolko-v-nalichii",
+                "type": "Только в наличии",
+                "codes": [
+                    -9
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": null,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": true
+                    }
+                ]
+            },
+            {
+                "name": "Забрать через 15 минут",
+                "selected": false,
+                "translitName": "zabrat-cherez-15-minut",
+                "type": "Забрать через 15 минут",
+                "codes": [
+                    -11
+                ],
+                "criterias": [
+                    {
+                        "name": "S906",
+                        "value": "S906",
+                        "count": null,
+                        "translitName": null,
+                        "translitValue": "s906",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Забрать из магазина по адресу",
+                "selected": false,
+                "translitName": "zabrat-iz-magazina-po-adresu",
+                "type": "Забрать из магазина по адресу",
+                "codes": [
+                    -12
+                ],
+                "criterias": []
+            },
+            {
+                "name": "Доставить курьером",
+                "selected": false,
+                "translitName": "dostavit-kurerom",
+                "type": "Доставить курьером",
+                "codes": [
+                    -13
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": null,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Диагональ",
+                "selected": false,
+                "translitName": "diagonal",
+                "type": "Диагональ",
+                "codes": [
+                    612495,
+                    108,
+                    110
+                ],
+                "criterias": [
+                    {
+                        "name": "12\" - 27\"",
+                        "value": "12\" - 27\"",
+                        "count": 43,
+                        "translitName": null,
+                        "translitValue": "12---27",
+                        "selected": false
+                    },
+                    {
+                        "name": "28\" - 38\"",
+                        "value": "28\" - 38\"",
+                        "count": 100,
+                        "translitName": null,
+                        "translitValue": "28---38",
+                        "selected": false
+                    },
+                    {
+                        "name": "39\" - 48\"",
+                        "value": "39\" - 48\"",
+                        "count": 141,
+                        "translitName": null,
+                        "translitValue": "39---48",
+                        "selected": false
+                    },
+                    {
+                        "name": "49\" - 54\"",
+                        "value": "49\" - 54\"",
+                        "count": 113,
+                        "translitName": null,
+                        "translitValue": "49---54",
+                        "selected": false
+                    },
+                    {
+                        "name": "55\" - 64\"",
+                        "value": "55\" - 64\"",
+                        "count": 113,
+                        "translitName": null,
+                        "translitValue": "55---64",
+                        "selected": false
+                    },
+                    {
+                        "name": "65\" - 74\"",
+                        "value": "65\" - 74\"",
+                        "count": 86,
+                        "translitName": null,
+                        "translitValue": "65---74",
+                        "selected": false
+                    },
+                    {
+                        "name": "75\" - 81\"",
+                        "value": "75\" - 81\"",
+                        "count": 33,
+                        "translitName": null,
+                        "translitValue": "75---81",
+                        "selected": false
+                    },
+                    {
+                        "name": "82\" +",
+                        "value": "82\" +",
+                        "count": 8,
+                        "translitName": null,
+                        "translitValue": "82-",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Разрешение экрана",
+                "selected": false,
+                "translitName": "razreshenie-ekrana",
+                "type": "Разрешение экрана",
+                "codes": [
+                    391,
+                    619205,
+                    30852874
+                ],
+                "criterias": [
+                    {
+                        "name": "8К (7680х4320)",
+                        "value": "8К (7680х4320)",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "8k-7680h4320",
+                        "selected": false
+                    },
+                    {
+                        "name": "4К UHD (3840х2160)",
+                        "value": "4К UHD (3840х2160)",
+                        "count": 386,
+                        "translitName": null,
+                        "translitValue": "4k-uhd-3840h2160",
+                        "selected": false
+                    },
+                    {
+                        "name": "FullHD (1920x1080)",
+                        "value": "FullHD (1920x1080)",
+                        "count": 73,
+                        "translitName": null,
+                        "translitValue": "fullhd-1920x1080",
+                        "selected": false
+                    },
+                    {
+                        "name": "HD Ready (1366x768)",
+                        "value": "HD Ready (1366x768)",
+                        "count": 126,
+                        "translitName": null,
+                        "translitValue": "hd-ready-1366x768",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Операционная система",
+                "selected": false,
+                "translitName": "operacionnaya-sistema",
+                "type": "Операционная система",
+                "codes": [
+                    635,
+                    619506,
+                    30851720
+                ],
+                "criterias": [
+                    {
+                        "name": "Android",
+                        "value": "Android",
+                        "count": 178,
+                        "translitName": null,
+                        "translitValue": "android",
+                        "selected": false
+                    },
+                    {
+                        "name": "Tizen",
+                        "value": "Tizen",
+                        "count": 71,
+                        "translitName": null,
+                        "translitValue": "tizen",
+                        "selected": false
+                    },
+                    {
+                        "name": "Яндекс.ТВ",
+                        "value": "Яндекс.ТВ",
+                        "count": 37,
+                        "translitName": null,
+                        "translitValue": "yandekstv",
+                        "selected": false
+                    },
+                    {
+                        "name": "Салют ТВ",
+                        "value": "Салют ТВ",
+                        "count": 14,
+                        "translitName": null,
+                        "translitValue": "salut-tv",
+                        "selected": false
+                    },
+                    {
+                        "name": "WebOS",
+                        "value": "WebOS",
+                        "count": 147,
+                        "translitName": null,
+                        "translitValue": "webos",
+                        "selected": false
+                    },
+                    {
+                        "name": "Harmony OS",
+                        "value": "Harmony OS",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "harmony-os",
+                        "selected": false
+                    },
+                    {
+                        "name": "Vidaa",
+                        "value": "Vidaa",
+                        "count": 38,
+                        "translitName": null,
+                        "translitValue": "vidaa",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Смарт ТВ",
+                "selected": false,
+                "translitName": "smart-tv",
+                "type": "Смарт ТВ",
+                "codes": [
+                    208,
+                    619203
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 496,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Поддержка Wi-Fi",
+                "selected": false,
+                "translitName": "podderzhka-wi-fi",
+                "type": "Поддержка Wi-Fi",
+                "codes": [
+                    210,
+                    615868,
+                    4533,
+                    249
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 498,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Bluetooth",
+                "selected": false,
+                "translitName": "bluetooth",
+                "type": "Bluetooth",
+                "codes": [
+                    135,
+                    613102
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 441,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "QLED телевизоры",
+                "selected": false,
+                "translitName": "qled-televizory",
+                "type": "QLED телевизоры",
+                "codes": [
+                    8805,
+                    8390
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 61,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Технология HDR",
+                "selected": false,
+                "translitName": "tehnologiya-hdr",
+                "type": "Технология HDR",
+                "codes": [
+                    2473
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 389,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Подсветка Ambilight",
+                "selected": false,
+                "translitName": "podsvetka-ambilight",
+                "type": "Подсветка Ambilight",
+                "codes": [
+                    607777,
+                    2361
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 17,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Изогнутый экран",
+                "selected": false,
+                "translitName": "izognutyi-ekran",
+                "type": "Изогнутый экран",
+                "codes": [
+                    4241
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Голосовое управление",
+                "selected": false,
+                "translitName": "golosovoe-upravlenie",
+                "type": "Голосовое управление",
+                "codes": [
+                    5327
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 318,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Функция TimeShift",
+                "selected": false,
+                "translitName": "funkciya-timeshift",
+                "type": "Функция TimeShift",
+                "codes": [
+                    602695
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 324,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Запись видео",
+                "selected": false,
+                "translitName": "zapis-video",
+                "type": "Запись видео",
+                "codes": [
+                    203
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 303,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Выход на наушники",
+                "selected": false,
+                "translitName": "vyhod-na-naushniki",
+                "type": "Выход на наушники",
+                "codes": [
+                    177,
+                    132,
+                    133
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 314,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Тюнер для эфирного ТВ (T/T2)",
+                "selected": false,
+                "translitName": "tuner-dlya-efirnogo-tv-t-t2",
+                "type": "Тюнер для эфирного ТВ (T/T2)",
+                "codes": [
+                    30851004,
+                    30851260,
+                    30851003
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 591,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Тюнер для кабельного ТВ (С/С2)",
+                "selected": false,
+                "translitName": "tuner-dlya-kabelnogo-tv-s-s2",
+                "type": "Тюнер для кабельного ТВ (С/С2)",
+                "codes": [
+                    30851052,
+                    30851260,
+                    30851005
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 582,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Тюнер для спутникового ТВ (S/S2)",
+                "selected": false,
+                "translitName": "tuner-dlya-sputnikovogo-tv-s-s2",
+                "type": "Тюнер для спутникового ТВ (S/S2)",
+                "codes": [
+                    30851102,
+                    30851006,
+                    30851260
+                ],
+                "criterias": [
+                    {
+                        "name": "Да",
+                        "value": "Да",
+                        "count": 519,
+                        "translitName": null,
+                        "translitValue": "da",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Количество тюнеров",
+                "selected": false,
+                "translitName": "kolichestvo-tunerov",
+                "type": "Количество тюнеров",
+                "codes": [
+                    185
+                ],
+                "criterias": [
+                    {
+                        "name": "1 шт",
+                        "value": "1 шт",
+                        "count": 362,
+                        "translitName": null,
+                        "translitValue": "1-sht",
+                        "selected": false
+                    },
+                    {
+                        "name": "2 шт",
+                        "value": "2 шт",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "2-sht",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Технология улучшения изображения",
+                "selected": false,
+                "translitName": "tehnologiya-uluchsheniya-izobrazheniya",
+                "type": "Технология улучшения изображения",
+                "codes": [
+                    30852864,
+                    30853102
+                ],
+                "criterias": [
+                    {
+                        "name": "PMI",
+                        "value": "PMI",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "pmi",
+                        "selected": false
+                    },
+                    {
+                        "name": "PQI",
+                        "value": "PQI",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "pqi",
+                        "selected": false
+                    },
+                    {
+                        "name": "PPI",
+                        "value": "PPI",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "ppi",
+                        "selected": false
+                    },
+                    {
+                        "name": "AM",
+                        "value": "AM",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "am",
+                        "selected": false
+                    },
+                    {
+                        "name": "Гц",
+                        "value": "Гц",
+                        "count": 17,
+                        "translitName": null,
+                        "translitValue": "gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "прочие",
+                        "value": "прочие",
+                        "count": 178,
+                        "translitName": null,
+                        "translitValue": "prochie",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Частота обновления",
+                "selected": false,
+                "translitName": "chastota-obnovleniya",
+                "type": "Частота обновления",
+                "codes": [
+                    2119
+                ],
+                "criterias": [
+                    {
+                        "name": "60 Гц",
+                        "value": "60 Гц",
+                        "count": 410,
+                        "translitName": null,
+                        "translitValue": "60-gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "50 Гц",
+                        "value": "50 Гц",
+                        "count": 72,
+                        "translitName": null,
+                        "translitValue": "50-gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "120 Гц",
+                        "value": "120 Гц",
+                        "count": 65,
+                        "translitName": null,
+                        "translitValue": "120-gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "100 Гц",
+                        "value": "100 Гц",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "100-gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "62 Гц",
+                        "value": "62 Гц",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "62-gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "75 Гц",
+                        "value": "75 Гц",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "75-gc",
+                        "selected": false
+                    },
+                    {
+                        "name": "200 Гц",
+                        "value": "200 Гц",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "200-gc",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Значение интерполяции",
+                "selected": false,
+                "translitName": "znachenie-interpolyacii",
+                "type": "Значение интерполяции",
+                "codes": [
+                    30852959
+                ],
+                "criterias": [
+                    {
+                        "name": "3000 и более",
+                        "value": "3000 и более",
+                        "count": 33,
+                        "translitName": null,
+                        "translitValue": "3000-i-bolee",
+                        "selected": false
+                    },
+                    {
+                        "name": "2000 - 2990",
+                        "value": "2000 - 2990",
+                        "count": 23,
+                        "translitName": null,
+                        "translitValue": "2000---2990",
+                        "selected": false
+                    },
+                    {
+                        "name": "1600 - 1990",
+                        "value": "1600 - 1990",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "1600---1990",
+                        "selected": false
+                    },
+                    {
+                        "name": "1000 - 1590",
+                        "value": "1000 - 1590",
+                        "count": 18,
+                        "translitName": null,
+                        "translitValue": "1000---1590",
+                        "selected": false
+                    },
+                    {
+                        "name": "500 - 999",
+                        "value": "500 - 999",
+                        "count": 21,
+                        "translitName": null,
+                        "translitValue": "500---999",
+                        "selected": false
+                    },
+                    {
+                        "name": "до 500",
+                        "value": "до 500",
+                        "count": 24,
+                        "translitName": null,
+                        "translitValue": "do-500",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Вход HDMI",
+                "selected": false,
+                "translitName": "vhod-hdmi",
+                "type": "Вход HDMI",
+                "codes": [
+                    626,
+                    6563,
+                    179,
+                    5267
+                ],
+                "criterias": [
+                    {
+                        "name": "3 шт",
+                        "value": "3 шт",
+                        "count": 293,
+                        "translitName": null,
+                        "translitValue": "3-sht",
+                        "selected": false
+                    },
+                    {
+                        "name": "2 шт",
+                        "value": "2 шт",
+                        "count": 135,
+                        "translitName": null,
+                        "translitValue": "2-sht",
+                        "selected": false
+                    },
+                    {
+                        "name": "4 шт",
+                        "value": "4 шт",
+                        "count": 134,
+                        "translitName": null,
+                        "translitValue": "4-sht",
+                        "selected": false
+                    },
+                    {
+                        "name": "1 шт",
+                        "value": "1 шт",
+                        "count": 33,
+                        "translitName": null,
+                        "translitValue": "1-sht",
+                        "selected": false
+                    },
+                    {
+                        "name": "8 шт",
+                        "value": "8 шт",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "8-sht",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Версия HDMI",
+                "selected": false,
+                "translitName": "versiya-hdmi",
+                "type": "Версия HDMI",
+                "codes": [
+                    180
+                ],
+                "criterias": [
+                    {
+                        "name": "2.3",
+                        "value": "2.3",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "23",
+                        "selected": false
+                    },
+                    {
+                        "name": "2.1",
+                        "value": "2.1",
+                        "count": 124,
+                        "translitName": null,
+                        "translitValue": "21",
+                        "selected": false
+                    },
+                    {
+                        "name": "2.0",
+                        "value": "2.0",
+                        "count": 194,
+                        "translitName": null,
+                        "translitValue": "20",
+                        "selected": false
+                    },
+                    {
+                        "name": "1.4",
+                        "value": "1.4",
+                        "count": 109,
+                        "translitName": null,
+                        "translitValue": "14",
+                        "selected": false
+                    },
+                    {
+                        "name": "1.3",
+                        "value": "1.3",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "13",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Вес",
+                "selected": false,
+                "translitName": "ves",
+                "type": "Вес",
+                "codes": [
+                    11929,
+                    91
+                ],
+                "criterias": [
+                    {
+                        "name": "до 15 кг",
+                        "value": "до 15 кг",
+                        "count": 414,
+                        "translitName": null,
+                        "translitValue": "do-15-kg",
+                        "selected": false
+                    },
+                    {
+                        "name": "15 - 35 кг",
+                        "value": "15 - 35 кг",
+                        "count": 156,
+                        "translitName": null,
+                        "translitValue": "15---35-kg",
+                        "selected": false
+                    },
+                    {
+                        "name": "35 - 55 кг",
+                        "value": "35 - 55 кг",
+                        "count": 17,
+                        "translitName": null,
+                        "translitValue": "35---55-kg",
+                        "selected": false
+                    },
+                    {
+                        "name": "55 - 85 кг",
+                        "value": "55 - 85 кг",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "55---85-kg",
+                        "selected": false
+                    },
+                    {
+                        "name": "Более 85 кг",
+                        "value": "Более 85 кг",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "bolee-85-kg",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Цвет",
+                "selected": false,
+                "translitName": "cvet",
+                "type": "Цвет",
+                "codes": [
+                    89
+                ],
+                "criterias": [
+                    {
+                        "name": "белый/бежевый",
+                        "value": "белый/бежевый",
+                        "count": 25,
+                        "translitName": null,
+                        "translitValue": "belyi-bezhevyi",
+                        "selected": false
+                    },
+                    {
+                        "name": "серебристый",
+                        "value": "серебристый",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "serebristyi",
+                        "selected": false
+                    },
+                    {
+                        "name": "черный",
+                        "value": "черный",
+                        "count": 377,
+                        "translitName": null,
+                        "translitValue": "chernyi",
+                        "selected": false
+                    },
+                    {
+                        "name": "другие цвета",
+                        "value": "другие цвета",
+                        "count": 95,
+                        "translitName": null,
+                        "translitValue": "drugie-cveta",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "Рейтинг покупателей",
+                "selected": false,
+                "translitName": "reiting-pokupatelei",
+                "type": "Рейтинг покупателей",
+                "codes": [
+                    -4
+                ],
+                "criterias": [
+                    {
+                        "name": "От",
+                        "value": "От 4",
+                        "count": 391,
+                        "translitName": null,
+                        "translitValue": "ot-4",
+                        "selected": false
+                    },
+                    {
+                        "name": "От",
+                        "value": "От 3",
+                        "count": 421,
+                        "translitName": null,
+                        "translitValue": "ot-3",
+                        "selected": false
+                    },
+                    {
+                        "name": "От",
+                        "value": "От 2",
+                        "count": 424,
+                        "translitName": null,
+                        "translitValue": "ot-2",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "collection_top",
+                "selected": false,
+                "translitName": "collection_top",
+                "type": "collection_top",
+                "codes": [
+                    -5
+                ],
+                "criterias": [
+                    {
+                        "name": "LG NanoCell",
+                        "value": "LG NanoCell",
+                        "count": 47,
+                        "translitName": null,
+                        "translitValue": "lg-nanocell",
+                        "selected": false
+                    },
+                    {
+                        "name": "белые",
+                        "value": "белые",
+                        "count": 18,
+                        "translitName": null,
+                        "translitValue": "belye",
+                        "selected": false
+                    },
+                    {
+                        "name": "70 дюймов",
+                        "value": "70 дюймов",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "70-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "22 дюйма",
+                        "value": "22 дюйма",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "22-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "24 дюйма",
+                        "value": "24 дюйма",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "24-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "28 дюймов",
+                        "value": "28 дюймов",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "28-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "32 дюйма",
+                        "value": "32 дюйма",
+                        "count": 93,
+                        "translitName": null,
+                        "translitValue": "32-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "43 дюйма",
+                        "value": "43 дюйма",
+                        "count": 103,
+                        "translitName": null,
+                        "translitValue": "43-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "49 дюймов",
+                        "value": "49 дюймов",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "49-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "50 дюймов",
+                        "value": "50 дюймов",
+                        "count": 72,
+                        "translitName": null,
+                        "translitValue": "50-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "55 дюймов",
+                        "value": "55 дюймов",
+                        "count": 101,
+                        "translitName": null,
+                        "translitValue": "55-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "65 дюймов",
+                        "value": "65 дюймов",
+                        "count": 67,
+                        "translitName": null,
+                        "translitValue": "65-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "DVB T2",
+                        "value": "DVB T2",
+                        "count": 557,
+                        "translitName": null,
+                        "translitValue": "dvb-t2",
+                        "selected": false
+                    },
+                    {
+                        "name": "Samsung Series 7",
+                        "value": "Samsung Series 7",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "samsung-series-7",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony Bravia",
+                        "value": "Sony Bravia",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "sony-bravia",
+                        "selected": false
+                    },
+                    {
+                        "name": "большие",
+                        "value": "большие",
+                        "count": 192,
+                        "translitName": null,
+                        "translitValue": "bolshie",
+                        "selected": false
+                    },
+                    {
+                        "name": "Интерьерные",
+                        "value": "Интерьерные",
+                        "count": 10,
+                        "translitName": null,
+                        "translitValue": "interernye",
+                        "selected": false
+                    },
+                    {
+                        "name": "маленькие",
+                        "value": "маленькие",
+                        "count": 27,
+                        "translitName": null,
+                        "translitValue": "malenkie",
+                        "selected": false
+                    },
+                    {
+                        "name": "Яндекс.ТВ",
+                        "value": "Яндекс.ТВ",
+                        "count": 40,
+                        "translitName": null,
+                        "translitValue": "yandekstv",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "name": "collection_bottom",
+                "selected": false,
+                "translitName": "collection_bottom",
+                "type": "collection_bottom",
+                "codes": [
+                    -6
+                ],
+                "criterias": [
+                    {
+                        "name": "48 дюймов",
+                        "value": "48 дюймов",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "48-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "42 дюйма",
+                        "value": "42 дюйма",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "42-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "20 дюймов",
+                        "value": "20 дюймов",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "20-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "100 дюймов",
+                        "value": "100 дюймов",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "100-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "101 см",
+                        "value": "101 см",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "101-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "102 см",
+                        "value": "102 см",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "102-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "107 см",
+                        "value": "107 см",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "107-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "108 см",
+                        "value": "108 см",
+                        "count": 105,
+                        "translitName": null,
+                        "translitValue": "108-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "1080",
+                        "value": "1080",
+                        "count": 75,
+                        "translitName": null,
+                        "translitValue": "1080",
+                        "selected": false
+                    },
+                    {
+                        "name": "109 см",
+                        "value": "109 см",
+                        "count": 105,
+                        "translitName": null,
+                        "translitValue": "109-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "110 см",
+                        "value": "110 см",
+                        "count": 103,
+                        "translitName": null,
+                        "translitValue": "110-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "139 см",
+                        "value": "139 см",
+                        "count": 101,
+                        "translitName": null,
+                        "translitValue": "139-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "140 см",
+                        "value": "140 см",
+                        "count": 101,
+                        "translitName": null,
+                        "translitValue": "140-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "150 см",
+                        "value": "150 см",
+                        "count": 11,
+                        "translitName": null,
+                        "translitValue": "150-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "1920x1080",
+                        "value": "1920x1080",
+                        "count": 75,
+                        "translitName": null,
+                        "translitValue": "1920x1080",
+                        "selected": false
+                    },
+                    {
+                        "name": "2018",
+                        "value": "2018",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "2018",
+                        "selected": false
+                    },
+                    {
+                        "name": "2019",
+                        "value": "2019",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "2019",
+                        "selected": false
+                    },
+                    {
+                        "name": "2020",
+                        "value": "2020",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "2020",
+                        "selected": false
+                    },
+                    {
+                        "name": "21 дюйм",
+                        "value": "21 дюйм",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "21-duim",
+                        "selected": false
+                    },
+                    {
+                        "name": "25 дюймов",
+                        "value": "25 дюймов",
+                        "count": 36,
+                        "translitName": null,
+                        "translitValue": "25-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "26 дюймов",
+                        "value": "26 дюймов",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "26-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "27 дюймов",
+                        "value": "27 дюймов",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "27-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "29 дюймов",
+                        "value": "29 дюймов",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "29-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "37 дюймов",
+                        "value": "37 дюймов",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "37-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "39 дюймов",
+                        "value": "39 дюймов",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "39-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "40 дюймов",
+                        "value": "40 дюймов",
+                        "count": 22,
+                        "translitName": null,
+                        "translitValue": "40-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "41 дюйм",
+                        "value": "41 дюйм",
+                        "count": 105,
+                        "translitName": null,
+                        "translitValue": "41-duim",
+                        "selected": false
+                    },
+                    {
+                        "name": "44 дюйма",
+                        "value": "44 дюйма",
+                        "count": 103,
+                        "translitName": null,
+                        "translitValue": "44-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "47 дюймов",
+                        "value": "47 дюймов",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "47-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "54 дюйма",
+                        "value": "54 дюйма",
+                        "count": 101,
+                        "translitName": null,
+                        "translitValue": "54-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "57 дюймов",
+                        "value": "57 дюймов",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "57-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "58 дюймов",
+                        "value": "58 дюймов",
+                        "count": 9,
+                        "translitName": null,
+                        "translitValue": "58-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "60 дюймов",
+                        "value": "60 дюймов",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "60-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "64 дюйма",
+                        "value": "64 дюйма",
+                        "count": 67,
+                        "translitName": null,
+                        "translitValue": "64-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "72 дюйма",
+                        "value": "72 дюйма",
+                        "count": 4,
+                        "translitName": null,
+                        "translitValue": "72-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "75 дюймов",
+                        "value": "75 дюймов",
+                        "count": 32,
+                        "translitName": null,
+                        "translitValue": "75-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "77 дюймов",
+                        "value": "77 дюймов",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "77-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "80 дюймов",
+                        "value": "80 дюймов",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "80-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "81 см",
+                        "value": "81 см",
+                        "count": 93,
+                        "translitName": null,
+                        "translitValue": "81-sm",
+                        "selected": false
+                    },
+                    {
+                        "name": "82 дюйма",
+                        "value": "82 дюйма",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "82-duima",
+                        "selected": false
+                    },
+                    {
+                        "name": "85 дюймов",
+                        "value": "85 дюймов",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "85-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "86 дюймов",
+                        "value": "86 дюймов",
+                        "count": 7,
+                        "translitName": null,
+                        "translitValue": "86-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "90 дюймов",
+                        "value": "90 дюймов",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "90-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "98 дюймов",
+                        "value": "98 дюймов",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "98-duimov",
+                        "selected": false
+                    },
+                    {
+                        "name": "Dolby digital",
+                        "value": "Dolby digital",
+                        "count": 95,
+                        "translitName": null,
+                        "translitValue": "dolby-digital",
+                        "selected": false
+                    },
+                    {
+                        "name": "HDR",
+                        "value": "HDR",
+                        "count": 309,
+                        "translitName": null,
+                        "translitValue": "hdr",
+                        "selected": false
+                    },
+                    {
+                        "name": "LG 5-series",
+                        "value": "LG 5-series",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "lg-5-series",
+                        "selected": false
+                    },
+                    {
+                        "name": "LG 6-series",
+                        "value": "LG 6-series",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "lg-6-series",
+                        "selected": false
+                    },
+                    {
+                        "name": "Samsung Crystal UHD",
+                        "value": "Samsung Crystal UHD",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "samsung-crystal-uhd",
+                        "selected": false
+                    },
+                    {
+                        "name": "Samsung Series 5",
+                        "value": "Samsung Series 5",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "samsung-series-5",
+                        "selected": false
+                    },
+                    {
+                        "name": "Samsung Series 6",
+                        "value": "Samsung Series 6",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "samsung-series-6",
+                        "selected": false
+                    },
+                    {
+                        "name": "Samsung Series 8",
+                        "value": "Samsung Series 8",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "samsung-series-8",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sharp Aquos",
+                        "value": "Sharp Aquos",
+                        "count": 3,
+                        "translitName": null,
+                        "translitValue": "sharp-aquos",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony серия WF80",
+                        "value": "Sony серия WF80",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "sony-seriya-wf80",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony серия XF70",
+                        "value": "Sony серия XF70",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "sony-seriya-xf70",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony серия XF75",
+                        "value": "Sony серия XF75",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "sony-seriya-xf75",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony серия XF80",
+                        "value": "Sony серия XF80",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "sony-seriya-xf80",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony серия XF85",
+                        "value": "Sony серия XF85",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "sony-seriya-xf85",
+                        "selected": false
+                    },
+                    {
+                        "name": "Sony серия XF90",
+                        "value": "Sony серия XF90",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "sony-seriya-xf90",
+                        "selected": false
+                    },
+                    {
+                        "name": "белорусские",
+                        "value": "белорусские",
+                        "count": 103,
+                        "translitName": null,
+                        "translitValue": "belorusskie",
+                        "selected": false
+                    },
+                    {
+                        "name": "в Екатеринбурге",
+                        "value": "в Екатеринбурге",
+                        "count": 596,
+                        "translitName": null,
+                        "translitValue": "v-ekaterinburge",
+                        "selected": false
+                    },
+                    {
+                        "name": "в Новосибирске",
+                        "value": "в Новосибирске",
+                        "count": 596,
+                        "translitName": null,
+                        "translitValue": "v-novosibirske",
+                        "selected": false
+                    },
+                    {
+                        "name": "в Самаре",
+                        "value": "в Самаре",
+                        "count": 596,
+                        "translitName": null,
+                        "translitValue": "v-samare",
+                        "selected": false
+                    },
+                    {
+                        "name": "в спальню",
+                        "value": "в спальню",
+                        "count": 323,
+                        "translitName": null,
+                        "translitValue": "v-spalnu",
+                        "selected": false
+                    },
+                    {
+                        "name": "в Уфе",
+                        "value": "в Уфе",
+                        "count": 596,
+                        "translitName": null,
+                        "translitValue": "v-ufe",
+                        "selected": false
+                    },
+                    {
+                        "name": "дешевые",
+                        "value": "дешевые",
+                        "count": 27,
+                        "translitName": null,
+                        "translitValue": "deshevye",
+                        "selected": false
+                    },
+                    {
+                        "name": "для дачи",
+                        "value": "для дачи",
+                        "count": 243,
+                        "translitName": null,
+                        "translitValue": "dlya-dachi",
+                        "selected": false
+                    },
+                    {
+                        "name": "дорогие",
+                        "value": "дорогие",
+                        "count": 38,
+                        "translitName": null,
+                        "translitValue": "dorogie",
+                        "selected": false
+                    },
+                    {
+                        "name": "игровые",
+                        "value": "игровые",
+                        "count": 62,
+                        "translitName": null,
+                        "translitValue": "igrovye",
+                        "selected": false
+                    },
+                    {
+                        "name": "китайские",
+                        "value": "китайские",
+                        "count": 94,
+                        "translitName": null,
+                        "translitValue": "kitaiskie",
+                        "selected": false
+                    },
+                    {
+                        "name": "лучшие",
+                        "value": "лучшие",
+                        "count": 165,
+                        "translitName": null,
+                        "translitValue": "luchshie",
+                        "selected": false
+                    },
+                    {
+                        "name": "на Android",
+                        "value": "на Android",
+                        "count": 1,
+                        "translitName": null,
+                        "translitValue": "na-android",
+                        "selected": false
+                    },
+                    {
+                        "name": "на квантовых точках",
+                        "value": "на квантовых точках",
+                        "count": 47,
+                        "translitName": null,
+                        "translitValue": "na-kvantovyh-tochkah",
+                        "selected": false
+                    },
+                    {
+                        "name": "на кухню",
+                        "value": "на кухню",
+                        "count": 27,
+                        "translitName": null,
+                        "translitValue": "na-kuhnu",
+                        "selected": false
+                    },
+                    {
+                        "name": "настенные",
+                        "value": "настенные",
+                        "count": 6,
+                        "translitName": null,
+                        "translitValue": "nastennye",
+                        "selected": false
+                    },
+                    {
+                        "name": "недорогие",
+                        "value": "недорогие",
+                        "count": 27,
+                        "translitName": null,
+                        "translitValue": "nedorogie",
+                        "selected": false
+                    },
+                    {
+                        "name": "немецкие",
+                        "value": "немецкие",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "nemeckie",
+                        "selected": false
+                    },
+                    {
+                        "name": "российские",
+                        "value": "российские",
+                        "count": 313,
+                        "translitName": null,
+                        "translitValue": "rossiiskie",
+                        "selected": false
+                    },
+                    {
+                        "name": "с bluetooth",
+                        "value": "с bluetooth",
+                        "count": 237,
+                        "translitName": null,
+                        "translitValue": "s-bluetooth",
+                        "selected": false
+                    },
+                    {
+                        "name": "с Wi-Fi",
+                        "value": "с Wi-Fi",
+                        "count": 202,
+                        "translitName": null,
+                        "translitValue": "s-wi-fi",
+                        "selected": false
+                    },
+                    {
+                        "name": "с большим экраном",
+                        "value": "с большим экраном",
+                        "count": 105,
+                        "translitName": null,
+                        "translitValue": "s-bolshim-ekranom",
+                        "selected": false
+                    },
+                    {
+                        "name": "с голосовым управлением",
+                        "value": "с голосовым управлением",
+                        "count": 236,
+                        "translitName": null,
+                        "translitValue": "s-golosovym-upravleniem",
+                        "selected": false
+                    },
+                    {
+                        "name": "с часами",
+                        "value": "с часами",
+                        "count": 332,
+                        "translitName": null,
+                        "translitValue": "s-chasami",
+                        "selected": false
+                    },
+                    {
+                        "name": "серия Frame",
+                        "value": "серия Frame",
+                        "count": 5,
+                        "translitName": null,
+                        "translitValue": "seriya-frame",
+                        "selected": false
+                    },
+                    {
+                        "name": "серия Serif",
+                        "value": "серия Serif",
+                        "count": 2,
+                        "translitName": null,
+                        "translitValue": "seriya-serif",
+                        "selected": false
+                    },
+                    {
+                        "name": "тонкие",
+                        "value": "тонкие",
+                        "count": 103,
+                        "translitName": null,
+                        "translitValue": "tonkie",
+                        "selected": false
+                    },
+                    {
+                        "name": "цифровые",
+                        "value": "цифровые",
+                        "count": 436,
+                        "translitName": null,
+                        "translitValue": "cifrovye",
+                        "selected": false
+                    },
+                    {
+                        "name": "японские",
+                        "value": "японские",
+                        "count": 0,
+                        "translitName": null,
+                        "translitValue": "yaponskie",
+                        "selected": false
+                    }
+                ]
+            }
+        ],
+        "currentCategory": {
+            "name": "Телевизоры",
+            "parents": [
+                {
+                    "name": null,
+                    "translitName": null,
+                    "value": "root"
+                },
+                {
+                    "name": "Телевизоры и цифровое ТВ",
+                    "translitName": "televizory-i-cifrovoe-tv",
+                    "value": "1"
+                }
+            ],
+            "count": 597,
+            "translitName": "televizory",
+            "value": "65"
+        }
+    }
+}

@@ -1,0 +1,146 @@
+import requests
+import json
+def get_data():
+
+    cookies = {
+        'HINTS_FIO_COOKIE_NAME': '1',
+        'MVID_CALC_BONUS_RUBLES_PROFIT': 'true',
+        'MVID_CART_MULTI_DELETE': 'true',
+        'MVID_CREDIT_AVAILABILITY': 'true',
+        'MVID_GET_LOCATION_BY_DADATA': 'DaData',
+        'MVID_GUEST_ID': '22010473413',
+        'MVID_REGION_ID': '10',
+        'MVID_REGION_SHOP': 'S906',
+        'MVID_TIMEZONE_OFFSET': '5',
+        'NEED_REQUIRE_APPLY_DISCOUNT': 'true',
+        'PRESELECT_COURIER_DELIVERY_FOR_KBT': 'false',
+        'PROMOLISTING_WITHOUT_STOCK_AB_TEST': '2',
+        'searchType2': '3',
+        '_ym_uid': '1670532466456712842',
+        '_ym_d': '1670532466',
+        'utm_term': '',
+        '__SourceTracker': 'yandex__cpc',
+        'admitad_deduplication_cookie': 'yandex__cpc',
+        'tmr_lvid': '170cffa9f28cd7d6447f0b12f30be131',
+        'tmr_lvidTS': '1670532468698',
+        'flocktory-uuid': 'fb0f29fb-395f-4e1a-871f-9d47aa989d7f-0',
+        'afUserId': '7c3ab1a4-f097-4e25-aab1-c5dfe84f859c-p',
+        'uxs_uid': '94712e40-7739-11ed-8aff-530eff85d1d8',
+        'MVID_CITY_ID': 'CityR_60',
+        'MVID_GEOLOCATION_NEEDED': 'false',
+        'MVID_KLADR_ID': '0200001400000',
+        'MVID_ACTOR_API_AVAILABILITY': 'true',
+        'MVID_BLACK_FRIDAY_ENABLED': 'true',
+        'MVID_CART_AVAILABILITY': 'true',
+        'MVID_CATALOG_STATE': '1',
+        'MVID_COOKIE': '3500',
+        'MVID_CRITICAL_GTM_INIT_DELAY': '3000',
+        'MVID_FILTER_CODES': 'true',
+        'MVID_FILTER_TOOLTIP': '1',
+        'MVID_FLOCKTORY_ON': 'true',
+        'MVID_GIFT_KIT': 'true',
+        'MVID_GLC': 'true',
+        'MVID_GLP': 'true',
+        'MVID_GTM_ENABLED': '011',
+        'MVID_IMG_RESIZE': 'true',
+        'MVID_IS_NEW_BR_WIDGET': 'true',
+        'MVID_LAYOUT_TYPE': '1',
+        'MVID_LP_SOLD_VARIANTS': '3',
+        'MVID_MCLICK': 'true',
+        'MVID_MCLICK_NEW': 'true',
+        'MVID_MINDBOX_DYNAMICALLY': 'true',
+        'MVID_MINI_PDP': 'true',
+        'MVID_NEW_ACCESSORY': 'true',
+        'MVID_NEW_LK_CHECK_CAPTCHA': 'true',
+        'MVID_NEW_LK_OTP_TIMER': 'true',
+        'MVID_NEW_MBONUS_BLOCK': 'true',
+        'MVID_PROMO_CATALOG_ON': 'true',
+        'MVID_SERVICES': '111',
+        'MVID_WEB_SBP': 'true',
+        'SENTRY_ERRORS_RATE': '0.1',
+        'SENTRY_TRANSACTIONS_RATE': '0.5',
+        '__lhash_': '2e9bd79ae04e5852189a5cfb4d74bfcc',
+        'MVID_INTERVAL_DELIVERY': 'true',
+        'MVID_TYP_CHAT': 'true',
+        '_gid': 'GA1.2.1914905563.1677426596',
+        '_ym_isad': '1',
+        'advcake_track_id': 'a6f7a64d-8dec-1e5c-3a34-47e93cfd80d4',
+        'advcake_session_id': 'acacfde4-c255-3930-84ee-8206df3e3134',
+        'AF_SYNC': '1677426607872',
+        '_sp_ses.d61c': '*',
+        'SMSError': '',
+        'authError': '',
+        'MVID_VIEWED_PRODUCTS': '',
+        'wurfl_device_id': 'generic_web_browser',
+        'JSESSIONID': '5rKzj8vJ8XY8QyQrnJ2cnXPJQXg1Ww0LfHTmJLWlMrxD97mpH3gH!1629082384',
+        'COMPARISON_INDICATOR': 'false',
+        'MVID_NEW_OLD': 'eyJjYXJ0IjpmYWxzZSwiZmF2b3JpdGUiOnRydWUsImNvbXBhcmlzb24iOnRydWV9',
+        'MVID_OLD_NEW': 'eyJjb21wYXJpc29uIjogdHJ1ZSwgImZhdm9yaXRlIjogdHJ1ZSwgImNhcnQiOiB0cnVlfQ==',
+        'flacktory': 'no',
+        'BIGipServeratg-ps-prod_tcp80': '2433014794.20480.0000',
+        'bIPs': '53593859',
+        'CACHE_INDICATOR': 'true',
+        'MVID_GTM_BROWSER_THEME': '1',
+        'deviceType': 'tablet',
+        '__zzatgib-w-mvideo': 'MDA0dC0cTApcfEJcdGswPi17CT4VHThHKHIzd2UufQhnIU8nOUt9dglGYjJBMT1ROkkLXVsWI2A8FGRfYxc3ZxpnHUxVLkE7N1gOSCNVRCwTGjxrH2hHYSFGXVFqJh8Yfm8rUw4QYUBDcWUlLS1SKRIaYg9HV0VnXkZzXWcQREBNR0JzejA/bSFmTGIiRFtJa2xSVTd+YhZCRBgvSzk9bnBhDysYIVQ1Xz9BYUpKPTdYH0t1MBI=rrMhuQ==',
+        '__zzatgib-w-mvideo': 'MDA0dC0cTApcfEJcdGswPi17CT4VHThHKHIzd2UufQhnIU8nOUt9dglGYjJBMT1ROkkLXVsWI2A8FGRfYxc3ZxpnHUxVLkE7N1gOSCNVRCwTGjxrH2hHYSFGXVFqJh8Yfm8rUw4QYUBDcWUlLS1SKRIaYg9HV0VnXkZzXWcQREBNR0JzejA/bSFmTGIiRFtJa2xSVTd+YhZCRBgvSzk9bnBhDysYIVQ1Xz9BYUpKPTdYH0t1MBI=rrMhuQ==',
+        'cfidsgib-w-mvideo': 'zr7tqnxgl8rcQzaZ8dbIibcL8Cmz5D/jZIKTnM8dWXMN37LvsPLlPtkLu+IdMBc3jiLV5x48kuUM5q2vxEfsNrfBo7TP4bd/1YfFWjJoYv6bxjitdqvPrwaChi1UUe4Wun1wEjiwpP1+HUIkVfWwynTbMPHJ9i3EMHRJ',
+        'cfidsgib-w-mvideo': 'zr7tqnxgl8rcQzaZ8dbIibcL8Cmz5D/jZIKTnM8dWXMN37LvsPLlPtkLu+IdMBc3jiLV5x48kuUM5q2vxEfsNrfBo7TP4bd/1YfFWjJoYv6bxjitdqvPrwaChi1UUe4Wun1wEjiwpP1+HUIkVfWwynTbMPHJ9i3EMHRJ',
+        'gsscgib-w-mvideo': 'WqHD5d1ADfUpaaiER9HjQ0JZwu52IvzqJIycksuIMYHb6zMC4d+JRIMA0760KJBleq4IB7oePwqUG3Pj886si575xApe61hmhY5B10/SiJwiyylh16qjY5yRUS6Ghp5HyMF8/ZMSOPrdmGtfB1Fyr/PTDvFP8Wm604sAhkLebo7mIT5NeOnrB0ehPan4jjgFUFH6axKXh9dUOO1VLP3k0gTJkx5e0/qJG7Ze4PW5t48IaPb2QI4uh3oSPStY4Q==',
+        'gsscgib-w-mvideo': 'WqHD5d1ADfUpaaiER9HjQ0JZwu52IvzqJIycksuIMYHb6zMC4d+JRIMA0760KJBleq4IB7oePwqUG3Pj886si575xApe61hmhY5B10/SiJwiyylh16qjY5yRUS6Ghp5HyMF8/ZMSOPrdmGtfB1Fyr/PTDvFP8Wm604sAhkLebo7mIT5NeOnrB0ehPan4jjgFUFH6axKXh9dUOO1VLP3k0gTJkx5e0/qJG7Ze4PW5t48IaPb2QI4uh3oSPStY4Q==',
+        'fgsscgib-w-mvideo': 'frtS021f3972fffdd2d239303cb85d6648906d60',
+        'fgsscgib-w-mvideo': 'frtS021f3972fffdd2d239303cb85d6648906d60',
+        'cfidsgib-w-mvideo': 'xHGSs6t2B/XGdEII9u/L1DOl/iQwnZNOpBJTRybcOhjDwNfwL+M2ZTiOEDIv6+ZuVOHjFX7hJYva5R7sy+G4NUbppVKpMJ8YvDRcvoAuT5hdzktUUhQzHZsCv8nAbqvMHJbVTzGbuk+dRp106JgUr1CQei/TAajYMoXv',
+        'mindboxDeviceUUID': 'e74cde47-ee68-4cd6-ba4a-488428e4747e',
+        'directCrm-session': '%7B%22deviceGuid%22%3A%22e74cde47-ee68-4cd6-ba4a-488428e4747e%22%7D',
+        '_sp_id.d61c': 'db0cd9f5-094e-42f0-8882-e6017bf4d561.1670532466.6.1677485022.1677426940.3b47827a-1c17-4914-bc21-5587ad846a0c.2afd06af-34a5-4f2c-a661-f6cb2df45c4d.c254fe54-0855-456b-a732-6518bef4bac8.1677483955067.54',
+        '_ga': 'GA1.2.1413553709.1670532465',
+        'tmr_detect': '1%7C1677485025221',
+        '__hash_': '8e9808aaaca6f6126328570b701d4d3e',
+        '_ga_CFMZTSS5FM': 'GS1.1.1677483955.6.1.1677486318.0.0.0',
+        '_ga_BNX5WPP3YK': 'GS1.1.1677483955.6.1.1677486318.60.0.0',
+        'MVID_ENVCLOUD': 'prod1',
+    }
+
+    headers = {
+        'authority': 'www.mvideo.ru',
+        'accept': 'application/json',
+        'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+        'baggage': 'sentry-transaction=%2F,sentry-public_key=1e9efdeb57cf4127af3f903ec9db1466,sentry-trace_id=751a750680c1446ba6b2a650d95af2d8,sentry-sample_rate=0.5',
+        # 'cookie': 'HINTS_FIO_COOKIE_NAME=1; MVID_CALC_BONUS_RUBLES_PROFIT=true; MVID_CART_MULTI_DELETE=true; MVID_CREDIT_AVAILABILITY=true; MVID_GET_LOCATION_BY_DADATA=DaData; MVID_GUEST_ID=22010473413; MVID_REGION_ID=10; MVID_REGION_SHOP=S906; MVID_TIMEZONE_OFFSET=5; NEED_REQUIRE_APPLY_DISCOUNT=true; PRESELECT_COURIER_DELIVERY_FOR_KBT=false; PROMOLISTING_WITHOUT_STOCK_AB_TEST=2; searchType2=3; _ym_uid=1670532466456712842; _ym_d=1670532466; utm_term=; __SourceTracker=yandex__cpc; admitad_deduplication_cookie=yandex__cpc; tmr_lvid=170cffa9f28cd7d6447f0b12f30be131; tmr_lvidTS=1670532468698; flocktory-uuid=fb0f29fb-395f-4e1a-871f-9d47aa989d7f-0; afUserId=7c3ab1a4-f097-4e25-aab1-c5dfe84f859c-p; uxs_uid=94712e40-7739-11ed-8aff-530eff85d1d8; MVID_CITY_ID=CityR_60; MVID_GEOLOCATION_NEEDED=false; MVID_KLADR_ID=0200001400000; MVID_ACTOR_API_AVAILABILITY=true; MVID_BLACK_FRIDAY_ENABLED=true; MVID_CART_AVAILABILITY=true; MVID_CATALOG_STATE=1; MVID_COOKIE=3500; MVID_CRITICAL_GTM_INIT_DELAY=3000; MVID_FILTER_CODES=true; MVID_FILTER_TOOLTIP=1; MVID_FLOCKTORY_ON=true; MVID_GIFT_KIT=true; MVID_GLC=true; MVID_GLP=true; MVID_GTM_ENABLED=011; MVID_IMG_RESIZE=true; MVID_IS_NEW_BR_WIDGET=true; MVID_LAYOUT_TYPE=1; MVID_LP_SOLD_VARIANTS=3; MVID_MCLICK=true; MVID_MCLICK_NEW=true; MVID_MINDBOX_DYNAMICALLY=true; MVID_MINI_PDP=true; MVID_NEW_ACCESSORY=true; MVID_NEW_LK_CHECK_CAPTCHA=true; MVID_NEW_LK_OTP_TIMER=true; MVID_NEW_MBONUS_BLOCK=true; MVID_PROMO_CATALOG_ON=true; MVID_SERVICES=111; MVID_WEB_SBP=true; SENTRY_ERRORS_RATE=0.1; SENTRY_TRANSACTIONS_RATE=0.5; __lhash_=2e9bd79ae04e5852189a5cfb4d74bfcc; MVID_INTERVAL_DELIVERY=true; MVID_TYP_CHAT=true; _gid=GA1.2.1914905563.1677426596; _ym_isad=1; advcake_track_id=a6f7a64d-8dec-1e5c-3a34-47e93cfd80d4; advcake_session_id=acacfde4-c255-3930-84ee-8206df3e3134; AF_SYNC=1677426607872; _sp_ses.d61c=*; SMSError=; authError=; MVID_VIEWED_PRODUCTS=; wurfl_device_id=generic_web_browser; JSESSIONID=5rKzj8vJ8XY8QyQrnJ2cnXPJQXg1Ww0LfHTmJLWlMrxD97mpH3gH!1629082384; COMPARISON_INDICATOR=false; MVID_NEW_OLD=eyJjYXJ0IjpmYWxzZSwiZmF2b3JpdGUiOnRydWUsImNvbXBhcmlzb24iOnRydWV9; MVID_OLD_NEW=eyJjb21wYXJpc29uIjogdHJ1ZSwgImZhdm9yaXRlIjogdHJ1ZSwgImNhcnQiOiB0cnVlfQ==; flacktory=no; BIGipServeratg-ps-prod_tcp80=2433014794.20480.0000; bIPs=53593859; CACHE_INDICATOR=true; MVID_GTM_BROWSER_THEME=1; deviceType=tablet; __zzatgib-w-mvideo=MDA0dC0cTApcfEJcdGswPi17CT4VHThHKHIzd2UufQhnIU8nOUt9dglGYjJBMT1ROkkLXVsWI2A8FGRfYxc3ZxpnHUxVLkE7N1gOSCNVRCwTGjxrH2hHYSFGXVFqJh8Yfm8rUw4QYUBDcWUlLS1SKRIaYg9HV0VnXkZzXWcQREBNR0JzejA/bSFmTGIiRFtJa2xSVTd+YhZCRBgvSzk9bnBhDysYIVQ1Xz9BYUpKPTdYH0t1MBI=rrMhuQ==; __zzatgib-w-mvideo=MDA0dC0cTApcfEJcdGswPi17CT4VHThHKHIzd2UufQhnIU8nOUt9dglGYjJBMT1ROkkLXVsWI2A8FGRfYxc3ZxpnHUxVLkE7N1gOSCNVRCwTGjxrH2hHYSFGXVFqJh8Yfm8rUw4QYUBDcWUlLS1SKRIaYg9HV0VnXkZzXWcQREBNR0JzejA/bSFmTGIiRFtJa2xSVTd+YhZCRBgvSzk9bnBhDysYIVQ1Xz9BYUpKPTdYH0t1MBI=rrMhuQ==; cfidsgib-w-mvideo=zr7tqnxgl8rcQzaZ8dbIibcL8Cmz5D/jZIKTnM8dWXMN37LvsPLlPtkLu+IdMBc3jiLV5x48kuUM5q2vxEfsNrfBo7TP4bd/1YfFWjJoYv6bxjitdqvPrwaChi1UUe4Wun1wEjiwpP1+HUIkVfWwynTbMPHJ9i3EMHRJ; cfidsgib-w-mvideo=zr7tqnxgl8rcQzaZ8dbIibcL8Cmz5D/jZIKTnM8dWXMN37LvsPLlPtkLu+IdMBc3jiLV5x48kuUM5q2vxEfsNrfBo7TP4bd/1YfFWjJoYv6bxjitdqvPrwaChi1UUe4Wun1wEjiwpP1+HUIkVfWwynTbMPHJ9i3EMHRJ; gsscgib-w-mvideo=WqHD5d1ADfUpaaiER9HjQ0JZwu52IvzqJIycksuIMYHb6zMC4d+JRIMA0760KJBleq4IB7oePwqUG3Pj886si575xApe61hmhY5B10/SiJwiyylh16qjY5yRUS6Ghp5HyMF8/ZMSOPrdmGtfB1Fyr/PTDvFP8Wm604sAhkLebo7mIT5NeOnrB0ehPan4jjgFUFH6axKXh9dUOO1VLP3k0gTJkx5e0/qJG7Ze4PW5t48IaPb2QI4uh3oSPStY4Q==; gsscgib-w-mvideo=WqHD5d1ADfUpaaiER9HjQ0JZwu52IvzqJIycksuIMYHb6zMC4d+JRIMA0760KJBleq4IB7oePwqUG3Pj886si575xApe61hmhY5B10/SiJwiyylh16qjY5yRUS6Ghp5HyMF8/ZMSOPrdmGtfB1Fyr/PTDvFP8Wm604sAhkLebo7mIT5NeOnrB0ehPan4jjgFUFH6axKXh9dUOO1VLP3k0gTJkx5e0/qJG7Ze4PW5t48IaPb2QI4uh3oSPStY4Q==; fgsscgib-w-mvideo=frtS021f3972fffdd2d239303cb85d6648906d60; fgsscgib-w-mvideo=frtS021f3972fffdd2d239303cb85d6648906d60; cfidsgib-w-mvideo=xHGSs6t2B/XGdEII9u/L1DOl/iQwnZNOpBJTRybcOhjDwNfwL+M2ZTiOEDIv6+ZuVOHjFX7hJYva5R7sy+G4NUbppVKpMJ8YvDRcvoAuT5hdzktUUhQzHZsCv8nAbqvMHJbVTzGbuk+dRp106JgUr1CQei/TAajYMoXv; mindboxDeviceUUID=e74cde47-ee68-4cd6-ba4a-488428e4747e; directCrm-session=%7B%22deviceGuid%22%3A%22e74cde47-ee68-4cd6-ba4a-488428e4747e%22%7D; _sp_id.d61c=db0cd9f5-094e-42f0-8882-e6017bf4d561.1670532466.6.1677485022.1677426940.3b47827a-1c17-4914-bc21-5587ad846a0c.2afd06af-34a5-4f2c-a661-f6cb2df45c4d.c254fe54-0855-456b-a732-6518bef4bac8.1677483955067.54; _ga=GA1.2.1413553709.1670532465; tmr_detect=1%7C1677485025221; __hash_=8e9808aaaca6f6126328570b701d4d3e; _ga_CFMZTSS5FM=GS1.1.1677483955.6.1.1677486318.0.0.0; _ga_BNX5WPP3YK=GS1.1.1677483955.6.1.1677486318.60.0.0; MVID_ENVCLOUD=prod1',
+        'dnt': '1',
+        'referer': 'https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65',
+        'sec-ch-ua': '"Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'sentry-trace': '751a750680c1446ba6b2a650d95af2d8-bd8ae7f11a83dd50-0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
+        'x-set-application-id': 'fdc3a5ec-e5ee-4111-a755-2f7d756f50f1',
+    }
+
+    params = {
+        'categoryId': '65',
+        'offset': '0',
+        'limit': '24',
+        'filterParams': 'WyJ0b2xrby12LW5hbGljaGlpIiwiLTEyIiwiZGEiXQ==',
+        'doTranslit': 'true',
+    }
+
+    response = requests.get('https://www.mvideo.ru/bff/products/listing', params=params, cookies=cookies, headers=headers, allow_redirects=False).json()
+    print(response)
+    products_ids = response.get('body').get('products')
+    with open ('0_products_ids.json', 'w') as file:
+        json.dump(response, file, indent=4, ensure_ascii=False)
+
+    with open ('1_products_ids.json', 'w') as file:
+        json.dump(products_ids, file, indent=4, ensure_ascii=False)
+
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    get_data()
+
