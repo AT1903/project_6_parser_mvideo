@@ -23,54 +23,106 @@ headers = {
 res = requests.get(url, headers=headers)#, allow_redirects=False)
 soup = BeautifulSoup(res.text, 'lxml')
 #print(soup)
+
+#текущая дата
 date_today = datetime.date.today()
-print(f'Сегодня: {date_today}')
-print(f'Завтра: {date_today+timedelta(days=1)}')
 
+# print(f'Завтра: {date_today+timedelta(days=1)}')
+# now = datetime.datetime.now()
+# print(now.strftime("%d-%m-%Y"))
+data_i = date_today
+print(f'Сегодня: {data_i}')
 
-now = datetime.datetime.now()
-
-print(now.strftime("%d-%m-%Y"))
 
 dict_temp = {}
-print('...........................')
-dict_temp[date_today] = []
-[print(k, v) for k, v in dict_temp.items()]
-print(':::::::::::::::::::::::::')
-#print(dict_temp)
+dict_out = {}
+dict_headers = ['Дата', 'Температура']
 
-
-
-
+#выгрузка привязки по времени
 res_n_time = soup.find('div', class_ = 'ftab_content transition-02').find_all('tr')
 res_n_time = [int(i.text) for i in res_n_time[1].find_all('td')[1:]]
-#print(type(res_n_time))
 
+#выгрузка температуры
 res_temp = [int(i.getText()) for i in soup.find_all('div', class_= "t_0")]
+#[print(f'{i} - {res_temp[i]}') for i in range(len(res_temp))]
 
-data_i = date_today
+
 print('==========================')
+
+l_temp1 = []
+l_temp2 = []
+# dict_out[data_i] = []
+#создаем словарь с данными
 for i in range(len(res_n_time)):
+    # print(f'datai - {data_i}')
+    # print(f'dict_2 keys - {dict_2.keys()}')
+    if data_i not in dict_temp.keys(): dict_temp[data_i] = []
+    if data_i not in dict_out.keys(): dict_out[data_i] = []
+    # print(f'{i} - {dict_out}')
 
-    if data_i not in dict_temp : dict_temp[data_i] = []
-    dict_temp[data_i].append(res_temp[i])
+    l_temp1.append(res_temp[i])     #температура - фактическая
+    l_temp2.append(res_temp[i+25])  #температура - ощущается
+
     if res_n_time[i] == 23:
-        data_i = data_i+timedelta(days=1)
+        dict_temp[data_i].append(l_temp1)
+        dict_temp[data_i].append(l_temp2)
 
-print('==========================')
+        dict_out[data_i].append(sum(l_temp1) / len(l_temp1))
 
-[print(k, sum(v)/len(v)) for k, v in dict_temp.items()]
+        dict_out[data_i].append(sum(l_temp2) / len(l_temp2))
+
+        l_temp1 = []
+        l_temp2 = []
+        data_i = data_i + timedelta(days=1)
 
 
-print(tabulate([(k, sum(v)/len(v)) for k, v in dict_temp.items()], tablefmt='github', stralign='center'))
+print(tabulate([k,v] for k,v in dict_out.items()))
+#создаем словарь с данными для вывода на экран
+# dict_out = {}
+# for key in dict_temp.keys():
+#     dict_out[key] = []
+# print(tabulate(dict_temp))
+#
+# print('---------------------------------')
+# for k, v in dict_temp.items():
+#     for y in v:
+#         print(sum(y)/len(y))
+# print('---------------------------------')
+# print('************************************************')
+# [print(k, [sum(v1)/len(v1) for v1 in v]) for k, v in dict_temp.items()]
+
+# print(list(dict_temp))
+# l_3 = []
+# l_3.append(dict_temp.keys())
+# print(l_3)
 
 
+# print('************************************************')
+# print('==========================')
+#print(tabulate([k, [sum(v1)/len(v1) for v1 in v]) for k, v in dict_temp.items()]))
+# print(dict_temp)
+# print('=/////////////////////////////===')
+# for ky, va in dict_temp.items():
+#     print (sum(*va))
+# print('=/////////////////////////////===')
+#
+# [print(k, sum(*v)/len(*v)) for k, v in dict_temp.items()]
+#
+# print(tabulate([k, v for k, v in dict_temp.items()]))
+
+# print(tabulate([k, [sum(v1)/len(v1) for v1 in v] for k, v in dict_temp.items()], tablefmt='github', colalign=("center", "left") ,headers=dict_headers))#colalign=("right",)numalign="left",
+
+# print('...........................')
+# dict_temp[date_today] = []
+# [print(k, v) for k, v in dict_temp.items()]
+# print(':::::::::::::::::::::::::')
+#print(dict_temp)
 # print(*res_n_time, sep = '\n')
 # for i in range(len(res_n_time)):
 #     print(f'{i}: {res_n_time[i]}')
 # print(('=========================='))
 
-res_temp = [int(i.getText()) for i in soup.find_all('div', class_= "t_0")]
+# res_temp = [int(i.getText()) for i in soup.find_all('div', class_= "t_0")]
 # print(*res_temp, sep = '\n')
 # for i in range(len(res_temp)):
 #     print(f'{i}: {res_temp[i]}')
