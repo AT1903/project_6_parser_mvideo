@@ -73,6 +73,7 @@ for i in range(len(res_n_time)):
 
         l_temp1 = []
         l_temp2 = []
+
         data_i = data_i + timedelta(days=1)
 
 
